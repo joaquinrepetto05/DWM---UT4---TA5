@@ -1,0 +1,16 @@
+.button {
+    background-color: #0a0075; /* Azul oscuro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: 2px solid #fff; /* Borde blanco */
+}
+
+.button:hover {
+    background-color: #0f00b4; /* Azul claro */
+    transform: scale(1.05);
+}
